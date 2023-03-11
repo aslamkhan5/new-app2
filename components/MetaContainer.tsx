@@ -9,9 +9,9 @@ export default function MetaContainer({children, ...customMeta}) {
     const router = useRouter();
 
     const meta = {
-        title: "Paul Knulst - Tech Lead, Developer, Writer",
+        title: "Aslam Khan - Tech Lead & Developer",
         description: `I've been working in IT for ~12 years straight. Get in touch with me to know more.`,
-        image: "/public/1604_nobg.png",
+        image: "/public/1604.jpeg",
         type: "website",
         date: new Date().toDateString(),
         ...customMeta,
@@ -24,19 +24,19 @@ export default function MetaContainer({children, ...customMeta}) {
                 <meta content={meta.description} name="description"/>
                 <meta
                     property="og:url"
-                    content={`https://www.paulknulst.de${router.asPath}`}
+                    content={`https://www.thefullstackdeveloper.com${router.asPath}`}
                 />
                 <link
                     rel="canonical"
-                    href={`https://www.paulknulst.de${router.asPath}`}
+                    href={`https://www.thefullstackdeveloper.com${router.asPath}`}
                 />
                 <meta property="og:type" content={meta.type}/>
-                <meta property="og:site_name" content="Paul Knulst"/>
+                <meta property="og:site_name" content="M. Aslam"/>
                 <meta property="og:description" content={meta.description}/>
                 <meta property="og:title" content={meta.title}/>
                 <meta property="og:image" content={meta.image}/>
                 <meta name="twitter:card" content="summary_large_image"/>
-                <meta name="twitter:site" content="@paulknulst"/>
+                <meta name="twitter:site" content="Aslamraisani55"/>
                 <meta name="twitter:title" content={meta.title}/>
                 <meta name="twitter:description" content={meta.description}/>
                 <meta name="twitter:image" content={meta.image}/>

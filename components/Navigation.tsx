@@ -11,7 +11,7 @@ const Navigation = () => {
                 <div className="items-start flex">
                     <Link href="/">
                         <a className={"font-medium tracking-wider transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white"}>
-                            Paul Knulst
+                            M. Aslam
                         </a>
                     </Link>
                 </div>
@@ -23,18 +23,18 @@ const Navigation = () => {
                             About
                         </a>
                     </Link>
-                    <Link href={"/blog"}>
+                    <Link href={"#"}>
                         <a
                             className={pathname === "/blog" ? "font-medium tracking-wider transition-colors dark:text-sky-500 text-sky-500 hover:text-sky-500 uppercase dark:text-white" : "font-medium tracking-wider transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white"}
                         >
                             Blog
                         </a>
                     </Link>
-                    <Link href={"/supportme"}>
+                    <Link href={"#"}>
                         <a
                             className={pathname === "/supportme" ? "font-medium tracking-wider transition-colors dark:text-sky-500 text-sky-500 hover:text-sky-500 uppercase dark:text-white" : "font-medium tracking-wider transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white"}
                         >
-                            Support Me
+                            Contact
                         </a>
                     </Link>
                     <ThemeSwitch/>
