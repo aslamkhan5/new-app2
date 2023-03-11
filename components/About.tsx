@@ -12,13 +12,12 @@ const About = () => {
                         Hey there,
                     </h1>
                     <div className="mt-6 text-gray-800 dark:text-white">
-                        <p className="mb-4">I'm a Tech Lead and
-                            Technical Writer. I work as a Team Lead at <a
+                        <p className="mb-4">I'm a Tech enthusiast & a Fullstack Developer. I work as a Team Lead at <a
                                 href="https://www.digimarks.co.uk"
                                 className="font-bold transition-colors hover:text-sky-500" target="_blank"
                                 rel="noreferrer">Digimarks.</a>
                         </p>
-                        <p className="mb-4">Currently developing apps on React, Next, Express, Python, AWS, GCP and
+                        <p className="mb-4">Currently developing apps on Javascript, React, NodeJS, Python, AWS, GCP and
                             writing codes in my most of time about challenges in websites. New to Next.js,
                             Tailwindcss and
                             Canva/Figma.
