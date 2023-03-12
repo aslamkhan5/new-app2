@@ -11,7 +11,7 @@ const Navigation = () => {
                 <div className="items-start flex">
                     <Link href="/">
                         <a className={"font-medium tracking-wider transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white"}>
-                            M. Aslam
+                            Aslam
                         </a>
                     </Link>
                 </div>
